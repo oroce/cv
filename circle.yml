@@ -1,7 +1,7 @@
 
 dependencies:
     pre:
-        - sudo apt-get install texlive
+        - sudo apt-get install texlive-xetex
 test:
     override:
         - make
