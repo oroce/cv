@@ -1,5 +1,5 @@
 DOC=cv
-LATEX=xelatex
+LATEX=pdflatex
 BIBTEX=bibtex
 DEPS=
 
