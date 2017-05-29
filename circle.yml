@@ -1,0 +1,8 @@
+
+dependencies:
+    pre:
+        - sudo apt-get install texlive
+test:
+    override:
+        - make
+        - cp cv.pdf $CIRCLE_ARTIFACTS/cv.pdf
