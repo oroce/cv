@@ -1,7 +1,7 @@
 
 dependencies:
     pre:
-        - sudo apt-get install latex-xcolor texlive-xetex texlive-math-extra
+        - sudo apt-get install latex-xcolor texlive-xetex texlive-math-extra texlive-latex-extra
 test:
     override:
         - make
